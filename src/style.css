@@ -1,12 +1,22 @@
 body {
-  background-color: rgb(159, 187, 219);
+  background-color: #bbdefb;
+  text-align: center;
 }
 h1 {
-  color: white;
+  font-size: 96px;
   font-family: "Playfair Display", serif;
   font-weight: bold;
 }
 p {
+  margin: 50px auto 30px;
   font-family: "Poppins", sans-serif;
   font-weight: normal;
+  font-size: 24px;
+}
+.container {
+  margin: 250px auto;
+}
+#button-my-resume,
+#contact-me {
+  margin: 0 30px;
 }
