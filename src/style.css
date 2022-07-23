@@ -1,22 +1,28 @@
+:root {
+  --branding-color: #d3e5f3;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
 body {
-  background-color: #bbdefb;
+  background-color: var(--branding-color);
   text-align: center;
 }
 h1 {
   font-size: 96px;
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font-family);
   font-weight: bold;
 }
 p {
-  margin: 50px auto 30px;
-  font-family: "Poppins", sans-serif;
+  margin: 50px auto 50px;
+  font-family: var(--default-font-family);
   font-weight: normal;
   font-size: 24px;
 }
 .container {
   margin: 250px auto;
 }
-#button-my-resume,
-#contact-me {
-  margin: 0 30px;
+#button__resume,
+#button__contact {
+  margin: 0 20px;
 }
