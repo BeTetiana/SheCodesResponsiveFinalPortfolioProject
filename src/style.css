@@ -25,17 +25,26 @@ h2 {
   font-size: 64px;
   margin: 10px auto;
 }
+.columns-title {
+  font-size: 64px;
+  margin: 250px auto 100px;
+}
 #name {
-  margin: 250px auto 30px;
+  margin: 300px auto 30px;
 }
 .container {
 }
 .row {
-  margin: 100px auto 100px;
+  margin: 200px auto 200px;
 }
 #button__resume,
 #button__contact {
-  margin: 0 20px;
+  margin: 30px;
+}
+#button__resume:hover,
+#button__contact:hover {
+  color: var(--color);
+  background-color: white;
 }
 .btn-branding-outline {
   color: var(--color);
@@ -61,7 +70,8 @@ h2 {
   h1 {
     font-size: 60px;
   }
-  h2 {
+  h2,
+  .columns-title {
     font-size: 44px;
   }
 
