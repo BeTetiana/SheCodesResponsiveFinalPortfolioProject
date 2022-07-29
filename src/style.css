@@ -74,6 +74,10 @@ h2 {
   text-align: left;
   margin-bottom: 50px;
 }
+#email,
+#linkedin {
+  margin: 10px auto 30px;
+}
 @media (max-width: 960px) {
   body {
     margin-bottom: 100px;
@@ -112,5 +116,8 @@ h2 {
   }
   .container {
     margin: 20px auto;
+  }
+  #contact-info {
+    margin-top: 50px;
   }
 }
