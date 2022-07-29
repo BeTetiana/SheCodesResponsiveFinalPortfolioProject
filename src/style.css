@@ -14,6 +14,7 @@ h1 {
   font-family: var(--heading-font-family);
   font-weight: bold;
   line-height: 1.5;
+  margin: 200px auto 30px;
 }
 p {
   margin: 50px auto 50px;
@@ -29,13 +30,12 @@ h2 {
   font-size: 64px;
   margin: 250px auto 100px;
 }
-#name {
-  margin: 300px auto 30px;
-}
+
 .container {
+  margin: 300px auto;
 }
 .row {
-  margin: 200px auto 200px;
+  margin: 0px auto 200px;
 }
 #button__resume,
 #button__contact {
@@ -59,24 +59,58 @@ h2 {
   background-color: var(--color);
   color: white;
 }
-.columns-title {
-  padding: 0px 60px;
-}
+
 .navbar-text {
   display: block;
   text-align: center;
 }
+#photo {
+  display: block;
+  max-width: 400px;
+  border-radius: 10px 100px / 120px;
+  margin: 0 60px;
+}
+#info-about-me {
+  text-align: left;
+  margin-bottom: 50px;
+}
 @media (max-width: 960px) {
+  body {
+    margin-bottom: 100px;
+  }
   h1 {
     font-size: 60px;
   }
   h2,
   .columns-title {
     font-size: 44px;
+    margin: 10px;
   }
 
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  #photo {
+    display: block;
+    max-width: 70%;
+    border-radius: 20px;
+    margin: 10px auto 50px;
+  }
+  p {
+    margin: 20px auto;
+  }
+  #name {
+    margin: 40px auto 5px;
+  }
+  .row {
+    margin: 0px auto 20px;
+  }
+  #info-about-me {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .container {
+    margin: 20px auto;
   }
 }
