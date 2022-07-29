@@ -28,7 +28,7 @@ h2 {
 }
 .columns-title {
   font-size: 64px;
-  margin: 250px auto 100px;
+  margin: 250px auto 150px;
 }
 
 .container {
@@ -83,7 +83,7 @@ h2 {
   }
   h2,
   .columns-title {
-    font-size: 44px;
+    font-size: 42px;
     margin: 10px;
   }
 
