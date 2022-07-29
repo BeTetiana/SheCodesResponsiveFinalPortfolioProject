@@ -75,8 +75,14 @@ h2 {
   margin-bottom: 50px;
 }
 #email,
-#linkedin {
+#linkedin,
+#gitHub {
   margin: 10px auto 30px;
+}
+#footer {
+  display: block;
+  margin: 0 auto;
+  font-family: "Courier New", Courier, monospace;
 }
 @media (max-width: 960px) {
   body {
