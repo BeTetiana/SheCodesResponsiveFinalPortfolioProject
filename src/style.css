@@ -74,6 +74,9 @@ h2 {
   text-align: left;
   margin-bottom: 50px;
 }
+#contact-info {
+  margin: 0 100px;
+}
 #email,
 #linkedin,
 #gitHub {
@@ -84,6 +87,7 @@ h2 {
   margin: 0 auto;
   font-family: "Courier New", Courier, monospace;
 }
+
 @media (max-width: 960px) {
   body {
     margin-bottom: 100px;
@@ -125,5 +129,6 @@ h2 {
   }
   #contact-info {
     margin-top: 50px;
+    margin-left: 50px;
   }
 }
